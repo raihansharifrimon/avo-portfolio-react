@@ -1,0 +1,21 @@
+.service {
+    padding-bottom: 120px;
+  &__section {
+    background: $gray-ef;
+    padding: 60px;
+    text-align: center;
+
+    &-icon {
+      color: $green;
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+
+    &-heading h6 {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+  }
+}

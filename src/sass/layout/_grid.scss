@@ -1,0 +1,25 @@
+@for $i from 1 through $colums {
+  .col-#{$i} {
+    flex: 0 0 (100% / $colums) * $i;
+    width: (100% / $colums) * $i;
+  }
+
+  @include responsive(765px) {
+    .col-#{$i} {
+      flex: 0 0 100%;
+      width: 100%;
+    }
+  }
+}
+
+// offset
+@for $i from 1 through $colums {
+  .offset-#{$i} {
+    margin-left: (100% / $colums) * $i;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}

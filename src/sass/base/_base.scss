@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: $black-77;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.btn {
+  outline: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}

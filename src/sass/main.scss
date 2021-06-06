@@ -1,0 +1,20 @@
+// import abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// Import base
+@import "./base/base";
+
+// Import utilities
+@import "./utilities/utilities";
+
+// Import layout
+@import "./layout/grid";
+
+// import components
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/about";
+@import "./components/service";
+@import "./components/testimonial";
+@import "./components/progressCircle";

@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  height: 75vh;
+  background-color: $black + unquote("80");
+  @include bgImage;
+  @include flexCenter;
+  color: $white;
+
+  &__content {
+      text-align: center;
+
+      &-links a {
+          text-decoration: none;
+          color: $white;
+          text-transform: capitalize;
+          font-size: 17px;
+          font-weight: 300;
+          letter-spacing: 1px;
+      }
+
+      &-span {
+          margin: 0 20px;
+          font-size: 10px;
+      }
+
+
+  }
+
+  &__content-h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+}

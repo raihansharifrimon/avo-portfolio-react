@@ -1,0 +1,38 @@
+.progressCircle {
+  background: $bg-gray;
+
+  .progressCircle__content {
+    width: 100%;
+    padding: 50px 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &-info {
+        text-align: start;    
+        margin-left: 20px;  
+        
+        .circle-heading {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .circle-sub-heading {
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            opacity: .8;
+        }
+
+    }
+  }
+
+  .progressCircle__circle-circle {
+    stroke-dasharray: 284;
+    transition: 5s;
+    outline: 1px solid $black-77 + unquote("2e");
+    border-radius: 50%;
+  }
+}
