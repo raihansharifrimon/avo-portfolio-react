@@ -5,7 +5,15 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: $primary-font;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 p {
@@ -17,9 +25,26 @@ p {
 
 .btn {
   outline: 0;
-  border: none;
+  border: 1px solid transparent;
   background: transparent;
   cursor: pointer;
+  text-decoration: none;
+  padding: 12px 50px;
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 16px;
+  transition: background .5s;
+  color: $black;
+}
+
+.btn-outline {
+  border: 2px solid $white;
+  color: $white;
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
 }
 
 .img-fluid {

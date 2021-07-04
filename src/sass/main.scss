@@ -1,4 +1,5 @@
 // import abstracts
+@import "./abstracts/fonts";
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
 
@@ -18,3 +19,5 @@
 @import "./components/service";
 @import "./components/testimonial";
 @import "./components/progressCircle";
+@import "./components/slider";
+@import "./components/aboutUsHome";
